@@ -1,7 +1,3 @@
-Sure, here's a refactored `README.md` file for your project with the updated repository name and link:
-
----
-
 # Task Organizer App
 
 ## Project Overview

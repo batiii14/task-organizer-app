@@ -51,7 +51,7 @@
 
 - **index.html**: The main HTML file that structures the web page.
 - **css/style.css**: The main CSS file for styling the application.
-- **script.js**: The JavaScript file that contains the logic for adding, filtering, and managing tasks.
+- **js/script.js**: The JavaScript file that contains the logic for adding, filtering, and managing tasks.
 
 ## Technologies Used
 

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ToDoWhat?</title>
+</head>
+<body>
+  <div class="honk__appName__div "><center>
+        <h1><a href="./" class="honk__appName__h1">WhatToDo?</a></h3>
+    </center></div>
+    
+    <div class="todo-container">
+      <center><button id="addTaskBtn">Add Task</button></center>
+        <header>
+            <select id="filterDropdown" >
+              
+                <option value="all" selected>All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
+            
+              
+              <br><br><br><br>
+        </header>
+        <main>
+            <div id="tasksListContainer" class="grid"></div>
+        </main>
+        <footer>
+            <div class="social-icons">
+                <ul class="social__links">
+                    <li class="link">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </li>
+                    <li class="link">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </li>
+                    <li class="link">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </li>
+                    <li class="link">
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        
+                    </li>
+                </ul>
+            </div>
+            <p style="color: #facc36;">&copy; 2024 WhatToDo? All rights reserved.</p>
+        </footer>   
+    </div>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Add Task</h2>
+          <div class="input-container">
+              <input type="text" id="taskInput" placeholder="Task Name" class="taskInputColor">
+              <select id="categorySelect" class="taskInputColor">
+                  <option value="shopping">Shopping</option>
+                  <option value="gaming">Gaming</option>
+                  <option value="education">Education</option>
+                  <option value="fun">Fun</option>
+                  <option value="sport">Sport</option>
+              </select>
+              <textarea id="taskDescription" placeholder="Task Description" class="taskInputColor"></textarea>
+              <input type="time" id="taskTime" class="taskInputColor">
+          </div>
+          <button id="saveTaskBtn">Save Task</button>
+      </div>
+  </div>
+  
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
